@@ -8,7 +8,7 @@ from django.views import View
 from django.contrib.auth import logout
 from django.contrib.auth.decorators import login_required
 
-from django.utils.encoding import force_bytes, force_text, DjangoUnicodeDecodeError
+from django.utils.encoding import force_bytes, force_str, DjangoUnicodeDecodeError
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.urls import reverse
 from django.contrib.sites.shortcuts import get_current_site
