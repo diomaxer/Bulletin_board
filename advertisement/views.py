@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect
 from django.views.generic import DetailView
-
 from .models import Advertisement, AdvertisementImage
 from .forms import AdvertisementForm
 from django.contrib.auth.decorators import login_required
@@ -60,3 +59,5 @@ def create_ad_view(request):
         'form': form,
     }
     return render(request, 'advertisement/advertisement_create.html', context)
+
+

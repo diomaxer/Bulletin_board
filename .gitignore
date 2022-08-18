@@ -1,4 +1,6 @@
 advertisement/migrations
 user/migrations
+db.sqlite3
+
 
 media
