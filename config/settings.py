@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # My frameworks
     'django_cleanup',
+    'rest_framework',
     # My apps
     'user',
     'advertisement',
